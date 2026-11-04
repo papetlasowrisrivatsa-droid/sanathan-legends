@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "sanathanlegends",
+  "version": "${version}",
+  "name": "SANATHAN LEGENDS",
+  "description": "A cooperative divine-adventure mod focused on shared worship, temples, blessings and mythic quests.",
+  "authors": ["SANATHAN LEGENDS Team"],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.sanathanlegends.SanathanLegends"]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": ">=0.162.0"
+  }
+}
