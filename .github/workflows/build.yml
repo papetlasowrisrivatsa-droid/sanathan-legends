@@ -19,8 +19,10 @@ jobs:
         with:
           distribution: temurin
           java-version: '25'
-      - name: Set up Gradle
+      - name: Set up Gradle 9.7.1
         uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '9.7.1'
       - name: Build mod
         run: gradle build --no-daemon
       - name: Upload mod JAR
